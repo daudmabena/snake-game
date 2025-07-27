@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack-a-Mole - Arcade Games Hub</title>
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="whack-a-mole.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Whack-a-Mole</h1>
+            <a href="../../../index.html" class="back-button">← Back to Games</a>
+        </header>
+        
+        <div class="game-stats">
+            <div class="score-display">Score: <span id="score">0</span></div>
+            <div class="high-score-display">High Score: <span id="highScore">0</span></div>
+            <div class="time-display">Time: <span id="time">30</span>s</div>
+        </div>
+        
+        <div id="game-board" class="mole-board">
+            <div class="mole-hole">
+                <div class="mole" id="mole-1"></div>
+            </div>
+            <div class="mole-hole">
+                <div class="mole" id="mole-2"></div>
+            </div>
+            <div class="mole-hole">
+                <div class="mole" id="mole-3"></div>
+            </div>
+            <div class="mole-hole">
+                <div class="mole" id="mole-4"></div>
+            </div>
+            <div class="mole-hole">
+                <div class="mole" id="mole-5"></div>
+            </div>
+            <div class="mole-hole">
+                <div class="mole" id="mole-6"></div>
+            </div>
+            <div class="mole-hole">
+                <div class="mole" id="mole-7"></div>
+            </div>
+            <div class="mole-hole">
+                <div class="mole" id="mole-8"></div>
+            </div>
+            <div class="mole-hole">
+                <div class="mole" id="mole-9"></div>
+            </div>
+        </div>
+        
+        <div class="controls">
+            <button id="startBtn">Start Game</button>
+            <div class="difficulty">
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficultySelect">
+                    <option value="easy">Easy</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="hard">Hard</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to Play</h3>
+            <p>Click or tap on the moles as they appear from their holes:</p>
+            <ul>
+                <li>Each successful hit earns you points</li>
+                <li>The game lasts for 30 seconds</li>
+                <li>Moles appear faster as the difficulty increases</li>
+                <li>Try to get the highest score possible before time runs out!</li>
+            </ul>
+            <p>Be quick! The moles don't stay up for long!</p>
+        </div>
+    </div>
+    
+    <script src="../../../scripts/utils.js"></script>
+    <script src="whack-a-mole.js"></script>
+</body>
+</html>

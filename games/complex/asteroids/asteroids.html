@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroids - Arcade Games Hub</title>
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="asteroids.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Asteroids</h1>
+            <a href="../../../index.html" class="back-button">← Back to Games</a>
+        </header>
+        
+        <div class="game-stats">
+            <div class="score-display">Score: <span id="score">0</span></div>
+            <div class="high-score-display">High Score: <span id="highScore">0</span></div>
+            <div class="lives-display">Lives: <span id="lives">3</span></div>
+            <div class="level-display">Level: <span id="level">1</span></div>
+        </div>
+        
+        <canvas id="gameCanvas" width="800" height="600"></canvas>
+        
+        <div class="controls">
+            <button id="startBtn">Start Game</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resetBtn">Reset</button>
+            <div class="mobile-controls">
+                <button id="thrustBtn">Thrust</button>
+                <button id="leftBtn">←</button>
+                <button id="rightBtn">→</button>
+                <button id="fireBtn">Fire</button>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to Play</h3>
+            <p>Use the keyboard to control your spaceship:</p>
+            <ul>
+                <li>← → : Rotate ship left/right</li>
+                <li>↑ : Thrust forward</li>
+                <li>Space : Fire</li>
+                <li>Z : Hyperspace (teleport to a random location - risky!)</li>
+            </ul>
+            <p>Destroy asteroids to earn points. Large asteroids break into smaller ones when hit. Watch out for UFOs that appear occasionally and shoot at you!</p>
+        </div>
+    </div>
+    
+    <script src="../../../scripts/utils.js"></script>
+    <script src="asteroids.js"></script>
+</body>
+</html>

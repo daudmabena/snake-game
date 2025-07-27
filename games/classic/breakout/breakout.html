@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Breakout - Arcade Games Hub</title>
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="breakout.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Breakout</h1>
+            <a href="../../../index.html" class="back-button">← Back to Games</a>
+        </header>
+        
+        <div class="game-stats">
+            <div class="score-display">Score: <span id="score">0</span></div>
+            <div class="high-score-display">High Score: <span id="highScore">0</span></div>
+            <div class="lives-display">Lives: <span id="lives">3</span></div>
+            <div class="level-display">Level: <span id="level">1</span></div>
+        </div>
+        
+        <canvas id="gameCanvas" width="800" height="500"></canvas>
+        
+        <div class="controls">
+            <button id="startBtn">Start Game</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resetBtn">Reset</button>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to Play</h3>
+            <p>Use the mouse or arrow keys to control the paddle:</p>
+            <ul>
+                <li>Mouse: Move left and right to control the paddle</li>
+                <li>← → : Move paddle left/right</li>
+            </ul>
+            <p>Break all the bricks to advance to the next level. Don't let the ball fall below the paddle!</p>
+        </div>
+    </div>
+    
+    <script src="../../../scripts/utils.js"></script>
+    <script src="breakout.js"></script>
+</body>
+</html>

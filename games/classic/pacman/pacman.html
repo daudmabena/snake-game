@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pac-Man - Arcade Games Hub</title>
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="pacman.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Pac-Man</h1>
+            <a href="../../../index.html" class="back-button">← Back to Games</a>
+        </header>
+        
+        <div class="game-stats">
+            <div class="score-display">Score: <span id="score">0</span></div>
+            <div class="high-score-display">High Score: <span id="highScore">0</span></div>
+            <div class="lives-display">Lives: <span id="lives">3</span></div>
+            <div class="level-display">Level: <span id="level">1</span></div>
+        </div>
+        
+        <canvas id="gameCanvas" width="448" height="496"></canvas>
+        
+        <div class="controls">
+            <button id="startBtn">Start Game</button>
+            <button id="pauseBtn">Pause</button>
+            <button id="resetBtn">Reset</button>
+            <div class="mobile-controls">
+                <button id="upBtn">↑</button>
+                <div class="horizontal-controls">
+                    <button id="leftBtn">←</button>
+                    <button id="rightBtn">→</button>
+                </div>
+                <button id="downBtn">↓</button>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to Play</h3>
+            <p>Use the arrow keys to navigate Pac-Man through the maze:</p>
+            <ul>
+                <li>← → ↑ ↓ : Move Pac-Man</li>
+            </ul>
+            <p>Eat all the dots while avoiding the ghosts. Eat power pellets to temporarily turn the tables on the ghosts!</p>
+        </div>
+    </div>
+    
+    <script src="../../../scripts/utils.js"></script>
+    <script src="pacman.js"></script>
+</body>
+</html>

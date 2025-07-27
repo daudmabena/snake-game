@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Card Game - Arcade Games Hub</title>
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="memory-card.css">
+</head>
+<body>
+    <div class="game-container">
+        <header>
+            <h1>Memory Card Game</h1>
+            <a href="../../../index.html" class="back-button">← Back to Games</a>
+        </header>
+        
+        <div class="game-stats">
+            <div class="moves-display">Moves: <span id="moves">0</span></div>
+            <div class="time-display">Time: <span id="time">00:00</span></div>
+            <div class="best-time-display">Best Time: <span id="bestTime">--:--</span></div>
+        </div>
+        
+        <div id="game-board" class="memory-board"></div>
+        
+        <div class="controls">
+            <button id="startBtn">Start Game</button>
+            <button id="resetBtn">Reset</button>
+            <div class="difficulty">
+                <label for="difficulty">Difficulty:</label>
+                <select id="difficultySelect">
+                    <option value="easy">Easy (4x4)</option>
+                    <option value="medium" selected>Medium (6x6)</option>
+                    <option value="hard">Hard (8x8)</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>How to Play</h3>
+            <p>Click on cards to flip them and find matching pairs:</p>
+            <ul>
+                <li>Flip two cards at a time</li>
+                <li>If they match, they stay face up</li>
+                <li>If they don't match, they flip back over</li>
+                <li>Remember card positions to make matches in fewer moves</li>
+            </ul>
+            <p>Find all pairs to win the game. Try to complete the game in the fewest moves and shortest time!</p>
+        </div>
+    </div>
+    
+    <script src="../../../scripts/utils.js"></script>
+    <script src="memory-card.js"></script>
+</body>
+</html>
