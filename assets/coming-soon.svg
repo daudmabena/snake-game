@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#444" />
+  
+  <!-- Coming Soon Text -->
+  <text x="150" y="90" font-family="Arial" font-size="24" fill="white" text-anchor="middle">COMING SOON</text>
+  
+  <!-- Game Controller Icon -->
+  <rect x="110" y="110" width="80" height="40" rx="10" fill="#666" />
+  <circle cx="130" cy="130" r="8" fill="#888" />
+  <circle cx="170" cy="130" r="8" fill="#888" />
+  <rect x="145" y="120" width="10" height="20" fill="#888" />
+  <rect x="140" y="125" width="20" height="10" fill="#888" />
+</svg>

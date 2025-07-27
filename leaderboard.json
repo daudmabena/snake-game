@@ -1,0 +1,21 @@
+{
+  "snake": [
+    {
+      "name": "Player 1",
+      "score": 100,
+      "date": "2023-07-15"
+    },
+    {
+      "name": "Player 2",
+      "score": 80,
+      "date": "2023-07-14"
+    },
+    {
+      "name": "Player 3",
+      "score": 60,
+      "date": "2023-07-13"
+    }
+  ],
+  "tetris": [],
+  "pong": []
+}

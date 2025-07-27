@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200" width="300" height="200">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#222" />
+  
+  <!-- Snake Body -->
+  <rect x="140" y="80" width="20" height="20" fill="#8BC34A" />
+  <rect x="120" y="80" width="20" height="20" fill="#8BC34A" />
+  <rect x="100" y="80" width="20" height="20" fill="#8BC34A" />
+  <rect x="80" y="80" width="20" height="20" fill="#8BC34A" />
+  
+  <!-- Snake Head -->
+  <rect x="160" y="80" width="20" height="20" fill="#4CAF50" />
+  
+  <!-- Snake Eye -->
+  <circle cx="170" cy="85" r="3" fill="white" />
+  
+  <!-- Food -->
+  <circle cx="200" cy="80" r="10" fill="#FF5722" />
+  
+  <!-- Game Title -->
+  <text x="150" y="160" font-family="Arial" font-size="24" fill="white" text-anchor="middle">Snake Game</text>
+</svg>
