@@ -1,0 +1,38 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#111" />
+  
+  <!-- Tetris pieces -->
+  <!-- I Piece (cyan) -->
+  <rect x="50" y="30" width="20" height="20" fill="#00f0f0" stroke="#222" stroke-width="1" />
+  <rect x="70" y="30" width="20" height="20" fill="#00f0f0" stroke="#222" stroke-width="1" />
+  <rect x="90" y="30" width="20" height="20" fill="#00f0f0" stroke="#222" stroke-width="1" />
+  <rect x="110" y="30" width="20" height="20" fill="#00f0f0" stroke="#222" stroke-width="1" />
+  
+  <!-- O Piece (yellow) -->
+  <rect x="200" y="30" width="20" height="20" fill="#f0f000" stroke="#222" stroke-width="1" />
+  <rect x="220" y="30" width="20" height="20" fill="#f0f000" stroke="#222" stroke-width="1" />
+  <rect x="200" y="50" width="20" height="20" fill="#f0f000" stroke="#222" stroke-width="1" />
+  <rect x="220" y="50" width="20" height="20" fill="#f0f000" stroke="#222" stroke-width="1" />
+  
+  <!-- T Piece (purple) -->
+  <rect x="130" y="70" width="20" height="20" fill="#a000f0" stroke="#222" stroke-width="1" />
+  <rect x="150" y="70" width="20" height="20" fill="#a000f0" stroke="#222" stroke-width="1" />
+  <rect x="170" y="70" width="20" height="20" fill="#a000f0" stroke="#222" stroke-width="1" />
+  <rect x="150" y="90" width="20" height="20" fill="#a000f0" stroke="#222" stroke-width="1" />
+  
+  <!-- S Piece (green) -->
+  <rect x="70" y="110" width="20" height="20" fill="#00f000" stroke="#222" stroke-width="1" />
+  <rect x="90" y="110" width="20" height="20" fill="#00f000" stroke="#222" stroke-width="1" />
+  <rect x="50" y="130" width="20" height="20" fill="#00f000" stroke="#222" stroke-width="1" />
+  <rect x="70" y="130" width="20" height="20" fill="#00f000" stroke="#222" stroke-width="1" />
+  
+  <!-- Z Piece (red) -->
+  <rect x="190" y="110" width="20" height="20" fill="#f00000" stroke="#222" stroke-width="1" />
+  <rect x="210" y="110" width="20" height="20" fill="#f00000" stroke="#222" stroke-width="1" />
+  <rect x="210" y="130" width="20" height="20" fill="#f00000" stroke="#222" stroke-width="1" />
+  <rect x="230" y="130" width="20" height="20" fill="#f00000" stroke="#222" stroke-width="1" />
+  
+  <!-- Game Title -->
+  <text x="150" y="180" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">TETRIS</text>
+</svg>

@@ -1,0 +1,65 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#000" />
+  
+  <!-- Stars -->
+  <circle cx="30" cy="20" r="1" fill="#fff" />
+  <circle cx="60" cy="40" r="1" fill="#fff" />
+  <circle cx="90" cy="15" r="1" fill="#fff" />
+  <circle cx="120" cy="30" r="1" fill="#fff" />
+  <circle cx="150" cy="10" r="1" fill="#fff" />
+  <circle cx="180" cy="25" r="1" fill="#fff" />
+  <circle cx="210" cy="15" r="1" fill="#fff" />
+  <circle cx="240" cy="35" r="1" fill="#fff" />
+  <circle cx="270" cy="20" r="1" fill="#fff" />
+  <circle cx="45" cy="50" r="1" fill="#fff" />
+  <circle cx="75" cy="25" r="1" fill="#fff" />
+  <circle cx="105" cy="45" r="1" fill="#fff" />
+  <circle cx="135" cy="20" r="1" fill="#fff" />
+  <circle cx="165" cy="40" r="1" fill="#fff" />
+  <circle cx="195" cy="30" r="1" fill="#fff" />
+  <circle cx="225" cy="50" r="1" fill="#fff" />
+  <circle cx="255" cy="25" r="1" fill="#fff" />
+  <circle cx="285" cy="45" r="1" fill="#fff" />
+  
+  <!-- Aliens Row 1 (top tier) -->
+  <path d="M 50,40 L 45,45 L 45,50 L 50,55 L 55,50 L 55,45 Z" fill="#00ff00" />
+  <path d="M 80,40 L 75,45 L 75,50 L 80,55 L 85,50 L 85,45 Z" fill="#00ff00" />
+  <path d="M 110,40 L 105,45 L 105,50 L 110,55 L 115,50 L 115,45 Z" fill="#00ff00" />
+  <path d="M 140,40 L 135,45 L 135,50 L 140,55 L 145,50 L 145,45 Z" fill="#00ff00" />
+  <path d="M 170,40 L 165,45 L 165,50 L 170,55 L 175,50 L 175,45 Z" fill="#00ff00" />
+  <path d="M 200,40 L 195,45 L 195,50 L 200,55 L 205,50 L 205,45 Z" fill="#00ff00" />
+  <path d="M 230,40 L 225,45 L 225,50 L 230,55 L 235,50 L 235,45 Z" fill="#00ff00" />
+  
+  <!-- Aliens Row 2 (middle tier) -->
+  <rect x="45" y="70" width="10" height="10" fill="#00ffff" />
+  <rect x="75" y="70" width="10" height="10" fill="#00ffff" />
+  <rect x="105" y="70" width="10" height="10" fill="#00ffff" />
+  <rect x="135" y="70" width="10" height="10" fill="#00ffff" />
+  <rect x="165" y="70" width="10" height="10" fill="#00ffff" />
+  <rect x="195" y="70" width="10" height="10" fill="#00ffff" />
+  <rect x="225" y="70" width="10" height="10" fill="#00ffff" />
+  
+  <!-- Aliens Row 3 (bottom tier) -->
+  <circle cx="50" cy="100" r="5" fill="#ff00ff" />
+  <circle cx="80" cy="100" r="5" fill="#ff00ff" />
+  <circle cx="110" cy="100" r="5" fill="#ff00ff" />
+  <circle cx="140" cy="100" r="5" fill="#ff00ff" />
+  <circle cx="170" cy="100" r="5" fill="#ff00ff" />
+  <circle cx="200" cy="100" r="5" fill="#ff00ff" />
+  <circle cx="230" cy="100" r="5" fill="#ff00ff" />
+  
+  <!-- Player Ship -->
+  <path d="M 140,170 L 150,160 L 160,170 L 160,175 L 140,175 Z" fill="#00ff00" />
+  
+  <!-- Laser -->
+  <line x1="150" y1="160" x2="150" y2="120" stroke="#ff0000" stroke-width="2" />
+  
+  <!-- Bunkers -->
+  <path d="M 60,150 L 60,140 L 80,140 L 80,150 L 75,155 L 65,155 Z" fill="#00ff00" />
+  <path d="M 140,150 L 140,140 L 160,140 L 160,150 L 155,155 L 145,155 Z" fill="#00ff00" />
+  <path d="M 220,150 L 220,140 L 240,140 L 240,150 L 235,155 L 225,155 Z" fill="#00ff00" />
+  
+  <!-- Game Title -->
+  <text x="150" y="190" font-family="Arial" font-size="18" font-weight="bold" fill="white" text-anchor="middle">SPACE INVADERS</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#000" />
+  
+  <!-- Net -->
+  <line x1="150" y1="10" x2="150" y2="190" stroke="#fff" stroke-width="2" stroke-dasharray="10 5" />
+  
+  <!-- Left Paddle -->
+  <rect x="20" y="70" width="10" height="60" fill="#fff" rx="2" ry="2" />
+  
+  <!-- Right Paddle -->
+  <rect x="270" y="70" width="10" height="60" fill="#fff" rx="2" ry="2" />
+  
+  <!-- Ball -->
+  <circle cx="180" cy="100" r="8" fill="#fff" />
+  
+  <!-- Scores -->
+  <text x="100" y="40" font-family="Arial" font-size="30" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  <text x="200" y="40" font-family="Arial" font-size="30" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  
+  <!-- Game Title -->
+  <text x="150" y="180" font-family="Arial" font-size="24" font-weight="bold" fill="white" text-anchor="middle">PONG</text>
+</svg>

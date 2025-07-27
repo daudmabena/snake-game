@@ -1,0 +1,46 @@
+<svg width="300" height="200" viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="200" fill="#f5f5f5" />
+  
+  <!-- Game Board -->
+  <rect x="75" y="25" width="150" height="150" fill="white" stroke="#ddd" stroke-width="2" />
+  
+  <!-- Grid Lines -->
+  <line x1="125" y1="25" x2="125" y2="175" stroke="#333" stroke-width="3" />
+  <line x1="175" y1="25" x2="175" y2="175" stroke="#333" stroke-width="3" />
+  <line x1="75" y1="75" x2="225" y2="75" stroke="#333" stroke-width="3" />
+  <line x1="75" y1="125" x2="225" y2="125" stroke="#333" stroke-width="3" />
+  
+  <!-- X's and O's -->
+  <!-- X in top left -->
+  <line x1="85" y1="35" x2="115" y2="65" stroke="#ff5252" stroke-width="4" stroke-linecap="round" />
+  <line x1="115" y1="35" x2="85" y2="65" stroke="#ff5252" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- O in top middle -->
+  <circle cx="150" cy="50" r="20" fill="none" stroke="#4285f4" stroke-width="4" />
+  
+  <!-- X in top right -->
+  <line x1="185" y1="35" x2="215" y2="65" stroke="#ff5252" stroke-width="4" stroke-linecap="round" />
+  <line x1="215" y1="35" x2="185" y2="65" stroke="#ff5252" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- O in middle left -->
+  <circle cx="100" cy="100" r="20" fill="none" stroke="#4285f4" stroke-width="4" />
+  
+  <!-- X in center -->
+  <line x1="135" y1="85" x2="165" y2="115" stroke="#ff5252" stroke-width="4" stroke-linecap="round" />
+  <line x1="165" y1="85" x2="135" y2="115" stroke="#ff5252" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Empty middle right -->
+  
+  <!-- Empty bottom left -->
+  
+  <!-- O in bottom middle -->
+  <circle cx="150" cy="150" r="20" fill="none" stroke="#4285f4" stroke-width="4" />
+  
+  <!-- X in bottom right -->
+  <line x1="185" y1="135" x2="215" y2="165" stroke="#ff5252" stroke-width="4" stroke-linecap="round" />
+  <line x1="215" y1="135" x2="185" y2="165" stroke="#ff5252" stroke-width="4" stroke-linecap="round" />
+  
+  <!-- Game Title -->
+  <text x="150" y="190" font-family="Arial" font-size="20" font-weight="bold" fill="#333" text-anchor="middle">TIC-TAC-TOE</text>
+</svg>
