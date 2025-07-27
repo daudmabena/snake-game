@@ -1,0 +1,76 @@
+/* Tetris Game Specific Styles */
+
+/* Game canvas styling */
+#gameCanvas {
+    border: 2px solid #333;
+    background-color: #111;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Next piece preview styling */
+.next-piece {
+    margin: 15px auto;
+    text-align: center;
+}
+
+.next-piece h3 {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+#nextPieceCanvas {
+    border: 1px solid #333;
+    background-color: #111;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Game stats styling */
+.game-stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.level-display, .lines-display {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    #gameCanvas {
+        width: 240px;
+        height: 480px;
+    }
+    
+    #nextPieceCanvas {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .game-stats {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .level-display, .lines-display, .score-display, .high-score-display {
+        margin: 5px 0;
+    }
+}
+
+/* Tetris piece colors */
+.piece-i { background-color: #00f0f0; }
+.piece-o { background-color: #f0f000; }
+.piece-t { background-color: #a000f0; }
+.piece-s { background-color: #00f000; }
+.piece-z { background-color: #f00000; }
+.piece-j { background-color: #0000f0; }
+.piece-l { background-color: #f0a000; }
